@@ -64,6 +64,7 @@ puis recommencez le `git push`.
 ## Partie 2 : Lancer les tests automatiquement (45 min)
 
 1. Créez `.github/workflows/ci.yml` avec un job `test`.
+
 2. Étapes attendues, dans l'ordre :
    1. récupérer le code : action `actions/checkout@v6` ;
    2. installer Python 3.12 : action `actions/setup-python@v7`, avec `python-version: "3.12"` ;
