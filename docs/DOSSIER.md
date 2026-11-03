@@ -102,3 +102,8 @@ Les **questions à traiter** sont dans l'énoncé de chaque TP (lignes « Questi
 - **Aucun secret visible** : ne montrez jamais un mot de passe, un jeton (token) ou une clé. Floutez-les si besoin.
 - Numérotez et légendez **toutes** les captures, dans l'ordre des TP.
 - Écrivez avec vos mots : un dossier copié-collé de l'énoncé ne sera pas valorisé.
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
