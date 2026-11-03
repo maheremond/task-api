@@ -88,7 +88,7 @@ puis recommencez le `git push`.
    - la ligne exacte du fichier.
 4. Corrigez, poussez : retour au vert.
 
-> 📸 **TP1-3 :** le run rouge, avec l'étape `pytest` dépliée et le message d'erreur lisible.
+> 📸 **TP1-3 :** le run rouge, avec l'étape `pytest` dépliée et le message d'erreur lisible.![alt text](image-1.png)
 > 📸 **TP1-4 :** le run vert qui suit la correction.
 
 **Questions (à traiter dans le dossier) :** Quel test a échoué ? À quelle ligne ? Qu'est-ce qui a permis de le trouver rapidement ?
