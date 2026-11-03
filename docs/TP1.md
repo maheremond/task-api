@@ -55,7 +55,7 @@ puis recommencez le `git push`.
 
 > 📸 **TP1-1 :** le run « Hello » réussi, avec l'étape qui affiche la branche et l'auteur **dépliée**.
 
-**Questions (à traiter dans le dossier) :** Combien de temps a duré le run ? Où voit-on les logs de chaque étape ?
+**Questions (à traiter dans le dossier) :** Combien de temps a duré le run ? Où voit-on les logs de chaque étape ? bonjour a duré 7 seconde et ci 15 
 
 > Indice : la structure minimale est `name`, `on`, `jobs`, puis `runs-on` et `steps`.
 
@@ -64,6 +64,7 @@ puis recommencez le `git push`.
 ## Partie 2 : Lancer les tests automatiquement (45 min)
 
 1. Créez `.github/workflows/ci.yml` avec un job `test`.
+
 2. Étapes attendues, dans l'ordre :
    1. récupérer le code : action `actions/checkout@v6` ;
    2. installer Python 3.12 : action `actions/setup-python@v7`, avec `python-version: "3.12"` ;
@@ -87,7 +88,7 @@ puis recommencez le `git push`.
    - la ligne exacte du fichier.
 4. Corrigez, poussez : retour au vert.
 
-> 📸 **TP1-3 :** le run rouge, avec l'étape `pytest` dépliée et le message d'erreur lisible.
+> 📸 **TP1-3 :** le run rouge, avec l'étape `pytest` dépliée et le message d'erreur lisible.![alt text](image-1.png)
 > 📸 **TP1-4 :** le run vert qui suit la correction.
 
 **Questions (à traiter dans le dossier) :** Quel test a échoué ? À quelle ligne ? Qu'est-ce qui a permis de le trouver rapidement ?
